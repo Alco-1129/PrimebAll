@@ -1,2 +1,19 @@
 # PrimebAll
-PrimebAll case and QMK / Remap firmware: 10 layers, dual OLED dashboard, PETG enclosure.
+
+ケースとQMK / Remapファームウェアの配布データです。
+
+## v2.7
+
+- 接続側ごとに独立して保存する10レイヤー（0～9）
+- USB接続側がセントラル、TRRSで左右を接続
+- 左OLED：大型レイヤー数字、USB接続側、レイヤーバー
+- 右OLED：移動量・CPI・オートマウス状態・複数の押下キー
+- 47灯・50パターン
+
+初期配列は共通です。左右それぞれをUSB接続してRemapで個別に変更できます。
+詳細はfirmware/使い方.txtを参照してください。
+
+case/ はv2.6形状です。トップとボトムの2部品構成、テンティングなし、PETG / A1 mini対応。
+必須印刷数14個/セット。print_STL、形状3MF、STEP、Blender、フォームと再生成ソースを含みます。
+STEPは面分割近似を含むため、アルミ加工前に加工者の形状確認を受けてください。
+実物の嵌合・ガスケット・接着強度を試作で確認してください。
